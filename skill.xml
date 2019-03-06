@@ -12,7 +12,7 @@
         </output>
 
         <context if="empty($UserName)" id="name">
-            <output value="Привет! Меня зовут Гоша! А это - демонстрация моего навыка, созданного с помощью платформы zenbot. Как тебя зовут?"/>
+            <output value="Привет! Меня зовут Гоша! А это - демонстрация моего навыка, созданного Сережей. Как тебя зовут?"/>
 
             <input pattern="$Text">
                 <var name="UserName" value="cap($Text)" scope="user"/>
@@ -24,7 +24,7 @@
 
     <input pattern="* пока *">
         <var name="end_session" value="javascript: true"/>
-        <output value="Ну пока, незнакомец!" if="empty($UserName)"/>
+        <output value="Ну пока, незнакомка!" if="empty($UserName)"/>
         <output value="Пока-пока, $UserName!"/>
     </input>
 
