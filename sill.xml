@@ -1,9 +1,0 @@
-<context>
-    <input pattern="* $Color"/>
-    <sample>
-      <item>Green</item>
-      <item>Blue</item>
-      <item>Red</item>
-    </sample>
-  </context>
-
