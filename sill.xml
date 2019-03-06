@@ -1,6 +1,4 @@
-
-
-  <context>
+<context>
     <input pattern="* $Color"/>
     <sample>
       <item>Green</item>
@@ -8,4 +6,4 @@
       <item>Red</item>
     </sample>
   </context>
-</input>
+
